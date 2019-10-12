@@ -5,15 +5,22 @@ button{
     background-color: rgb(168, 44, 44);
     font-size: 25px;
     margin: 10px;
+    font-family: 'Bungee Shade', cursive;
 }
 h1{
+    margin-top: 10px;
     margin-left: 500px; 
     color: rgb(212, 0, 255);
 }
 body{
     background-color: black;
+    font-family: 'Sedgwick Ave', cursive;
 }
 p{
     color: rgb(212, 0, 255);
     font-size: 30px;
+}
+#addFemale{
+    color: rgb(212, 0, 255);
+    font-size:20px;
 }
