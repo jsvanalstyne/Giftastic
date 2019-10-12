@@ -6,6 +6,7 @@ button{
     font-size: 25px;
     margin: 10px;
     font-family: 'Bungee Shade', cursive;
+    border-radius: 8px;
 }
 h1{
     margin-top: 10px;
@@ -14,6 +15,7 @@ h1{
 }
 body{
     background-color: black;
+    
     font-family: 'Sedgwick Ave', cursive;
 }
 p{

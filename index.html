@@ -42,17 +42,23 @@
     <!-- Script -->
     <script>
     $( document ).ready(function() {
+        
     $(".addLady").on("click", function(event) {
       event.preventDefault();
       var addComedian = $("#ladyAdded").val().trim();
       console.log(addComedian);
-      
+    //   Pushes the user added comedian to the gifArray
       gifArray.push(addComedian);
+    //   Clears the textbox
+      $("#ladyAdded").val("");
 
     });
+    
+    
         // create an array to loop through for button creation and gif call
     var gifArray = ["Tina Fey", "Amy Poehler", "Maya Rudolph", "Lucille Ball", "Ali Wong", "Kristen Wiig", "Tiffany Hadish"];
         // Loop to create buttons
+    function femaleComedianLoop(){
     for(var i=0; i<gifArray.length; i++){
         // Check to see if loop works (it does)
         console.log(gifArray[i]);
@@ -62,6 +68,8 @@
         button.text(gifArray[i])
         $("#buttonDiv").append(button);
     }
+    }
+    femaleComedianLoop();
     
     $("#buttonDiv").on("click", ".data-name", function(){
         // console.log(this);
