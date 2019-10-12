@@ -4,4 +4,16 @@ button{
     color: rgb(212, 0, 255);
     background-color: rgb(168, 44, 44);
     font-size: 25px;
+    margin: 10px;
+}
+h1{
+    margin-left: 500px; 
+    color: rgb(212, 0, 255);
+}
+body{
+    background-color: black;
+}
+p{
+    color: rgb(212, 0, 255);
+    font-size: 30px;
 }

@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Goin down to GifTown</title>
+    <title>Funny Females</title>
     
     <link rel="stylesheet" href="gif.css">
    
 </head>
 <body>
+        <h1>I'm just here for the Gifs</h1>
 
 
     <div id="buttonDiv"></div>
+    <div id="gifDiv"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Script -->
     <script>
     $( document ).ready(function() {
         // create an array to loop through for button creation and gif call
-    var gifArray = ["Tina Fey", "Amy Poehler", "Maya Rudolph", "Lucille Ball"];
+    var gifArray = ["Tina Fey", "Amy Poehler", "Maya Rudolph", "Lucille Ball", "Ali Wong", "Kristen Wiig"];
         // Loop to create buttons
     for(var i=0; i<gifArray.length; i++){
         // Check to see if loop works (it does)
@@ -29,8 +31,6 @@
         button.attr("class","data-name", gifArray[i]);
         button.text(gifArray[i])
         $("#buttonDiv").append(button);
-
-
     }
     
     $("#buttonDiv").on("click", ".data-name", function(){
@@ -48,8 +48,20 @@
         .then(function(response) {
           console.log(response);
         //   console.log(response.data);
+        var results = response.data;
+            console.log(results);
+            
+            for(var i=0; i<results.length; i++){
+                var gifDiv = $("<div>");
+                var ratingResult = results[i].rating;
+                var newP = $("<p>").text("Rating: "+ ratingResult)
+                var femaleGif = $("<img>")
+                femaleGif.attr("src", results[i].images.fixed_height.url);
+                gifDiv.prepend(newP)
+                gifDiv.prepend(femaleGif);
+                $("#gifDiv").prepend(gifDiv);
 
-        
+            }
         });
        
     
