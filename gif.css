@@ -24,3 +24,11 @@ p{
     color: rgb(212, 0, 255);
     font-size:20px;
 }
+.addLady{
+    background-color: rgb(168, 44, 44);
+    color: rgb(212, 0, 255);
+    margin-top: 10px;
+}
+button:hover {
+    background-color: white;
+  }

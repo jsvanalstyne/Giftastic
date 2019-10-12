@@ -16,7 +16,7 @@
    
 </head>
 <body>
-    <h1>Let me get them Gifs</h1>
+    <h1>LET ME GET THEM GIFS</h1>
 
     <div class="container">
         <div class="row">
@@ -26,7 +26,7 @@
             <div class="col-3">
                 <div id="addFemale"></div>
                 <form>
-                        <span id="addFemale">Add Your Own Funny Lady <input id="ladyAdded" type="text" ><input id="addLady" value="Generate Gifs" type="submit"></span>
+                        <span id="addFemale">Add Your Own Funny Lady <input id="ladyAdded" type="text" ><input class="button addLady" value="Generate Gifs" type="submit"></span>
                       </form>
             </div>
         <div class="row">
@@ -42,7 +42,7 @@
     <!-- Script -->
     <script>
     $( document ).ready(function() {
-    $("#addLady").on("click", function(event) {
+    $(".addLady").on("click", function(event) {
       event.preventDefault();
       var addComedian = $("#ladyAdded").val().trim();
       console.log(addComedian);
