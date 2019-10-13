@@ -67,7 +67,7 @@
         // Create buttons for each array item
         var button = $("<button>")
         button.attr("class","data-name", gifArray[i]);
-        button.text(gifArray[i])
+        button.text(gifArray[i]);
         $("#buttonDiv").append(button);
     }
     }
@@ -96,19 +96,36 @@
                 var ratingResult = results[i].rating;
                 var newP = $("<p>").text("Rating: "+ ratingResult)
                 var femaleGif = $("<img>")
-                femaleGif.attr("src", results[i].images.fixed_height.url);
+                femaleGif.attr("src", results[i].images.original_still.url);
+                femaleGif.attr("class", "target")
+                femaleGif.attr("data-state", "still");
                 gifDiv.prepend(newP)
                 gifDiv.prepend(femaleGif);
                 $("#gifDiv").prepend(gifDiv);
-
             }
-        });
-       
-    
-    
-    
+        });    
     });
+
+ $(document).on("click", ".target", function(){   
+     console.log(this);
+    var gifClick = $(this).
+     console.log("yeah boiiii");
+    //  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
+    //     comedian + "&api_key=bHEkkzo2pA0nUQTUN6W2aCtygWlV0ITR&limit=10";
+        ;
+    // $.ajax({
+    //     url: queryURL,
+    //     method: "GET"
+    //   })
+    //     .then(function(response) {
+    //       console.log(response);
+
     
+
+
+
+
+});
    
 });
     
