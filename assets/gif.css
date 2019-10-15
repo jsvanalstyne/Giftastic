@@ -34,3 +34,9 @@ p{
 button:hover {
     background-color: white;
   }
+.button:hover{
+    background-color: white;
+}
+.button{
+    border-radius: 8px;
+}
