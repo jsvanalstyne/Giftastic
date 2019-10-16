@@ -1,42 +1,52 @@
 button{
     height: 80px;
     width: 200px;
-    color: rgb(212, 0, 255);
-    background-color: rgb(168, 44, 44);
+    color: white;
+    background-color: rgb(216, 118, 92);
     font-size: 25px;
     margin: 10px;
-    font-family: 'Bungee Shade', cursive;
+    font-family: 'Abril Fatface', cursive;
     border-radius: 8px;
 }
 h1{
-    margin-top: 10px;
-    margin-left: 500px; 
-    color: rgb(212, 0, 255);
+    font-family: 'Abril Fatface', cursive;
+    display:inline;
+    position: relative;
+    margin-left: 300px; 
+    color: rgb(217, 147, 86);
+    text-shadow: 1px 1px white;
+    font-size: 60px;
 }
 body{
-    background-color: black;
+    background-image: url(backgroundimage.png);
     
-    font-family: 'Bungee Shade', cursive;
+    font-family: 'Abril Fatface', cursive;
 }
 p{
-    color: rgb(212, 0, 255);
+    color: white;
     font-size: 30px;
 }
 #addFemale{
-    color: rgb(212, 0, 255);
+    color: white;
     font-size:20px;
 }
 .addLady{
     background-color: rgb(168, 44, 44);
-    color: rgb(212, 0, 255);
+    color: white;
     margin-top: 10px;
 }
 button:hover {
-    background-color: white;
+    background-color: rgb(214, 73,101);;
   }
 .button:hover{
-    background-color: white;
+    background-color: red;
 }
 .button{
     border-radius: 8px;
 }
+.container{
+    margin-top: 40px;
+}
+/* *{
+    border: 1px solid red !important;
+} */

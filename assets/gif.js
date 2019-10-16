@@ -15,7 +15,7 @@ $(document).ready(function () {
 
 
     // create an array to loop through for button creation and gif call
-    var gifArray = ["Tina Fey", "Amy Poehler", "Maya Rudolph", "Lucille Ball", "Ali Wong", "Kristen Wiig", "Tiffany Hadish"];
+    var gifArray = ["Tina Fey", "Amy Poehler", "Maya Rudolph", "Lucille Ball",  "Kristen Wiig", "Tiffany Hadish"];
     // Loop to create buttons
     function femaleComedianLoop() {
         for (var i = 0; i < gifArray.length; i++) {
