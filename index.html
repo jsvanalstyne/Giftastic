@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="assets/gif.css">
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <!-- Masonry -->
+    <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
 </head>
 
@@ -40,11 +43,9 @@
                             autocomplete="off"><input class="button addLady" value="Generate Gifs" type="submit"></span>
                 </form>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <div id="gifDiv"></div>
-                </div>
-            </div>
+        </div>
+        <div class="row grid">
+            <div id="gifDiv" class="grid-item"></div>
         </div>
 
         <!-- JQuery -->

@@ -31,15 +31,15 @@ p{
     font-size:20px;
 }
 .addLady{
-    background-color: rgb(168, 44, 44);
+    background-color: rgb(214, 73,101);
     color: white;
     margin-top: 10px;
 }
 button:hover {
-    background-color: rgb(214, 73,101);;
+    background-color: rgb(214, 73,101);
   }
 .button:hover{
-    background-color: red;
+    background-color: rgb(216, 118, 92);
 }
 .button{
     border-radius: 8px;
@@ -47,6 +47,19 @@ button:hover {
 .container{
     margin-top: 40px;
 }
+#gifDiv{
+    display: inline-block;
+}
+.grid {
+    text-align: center;
+    max-width: 95vw;
+    margin: 2.5vw auto;
+  }
+  .grid-item {
+    padding: 5px;
+    /* box-sizing: border-box; */
+      display:inline;
+  }
 /* *{
     border: 1px solid red !important;
 } */
