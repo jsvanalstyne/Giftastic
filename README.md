@@ -9,16 +9,16 @@ After the page loads, 6 buttons with female comedians' names will displayed. You
 
 ## Built With
 
--HTML5
+- HTML5
 
--CSS
+- CSS
 
--JavaScript
+- JavaScript
 
--[JQuery](https://api.jquery.com/)
+- [JQuery](https://api.jquery.com/)
 
--[BootStrap](https://getbootstrap.com/)
+- [BootStrap](https://getbootstrap.com/)
 
--[GIPHY API](https://giphy.com/)
+- [GIPHY API](https://giphy.com/)
 
 
