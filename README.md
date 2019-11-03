@@ -1,6 +1,6 @@
 # Ladies of Laughter
 
-This application allows a paused GIF to be populated based on the users input or based on the pre-populated buttons. use the GIPHY API to make a dynamic web page that populates with gifs of our choice.
+This application allows a paused GIF to be populated based on the users input or based on the pre-populated buttons. Use the GIPHY API to make a dynamic web page that populates with gifs of our choice.
 This is a dynamic webpage that allows the user to utilize the GIPHY API to create a button and populate 10 paused GIFs. When the user clicks a selected GIF, the GIF becomes animated. 
 
 ## Getting Started
